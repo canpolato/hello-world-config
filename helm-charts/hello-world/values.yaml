@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: canpolatoral/hello-world
   pullPolicy: IfNotPresent
-  tag: 61b82949e97123fa94729cba5598e55e5d7c66e7
+  tag: f144da85302b366c092097e8f2ef31842bdb309b
 imagePullSecrets: []
 nameOverride: ''
 fullnameOverride: ''
