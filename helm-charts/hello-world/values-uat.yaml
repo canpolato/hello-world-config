@@ -1,37 +1,4 @@
-replicaCount: 1
 image:
   repository: canpolatoral/hello-world
   pullPolicy: IfNotPresent
-  tag: 87721554cc1c539bfafd58049edc7dcece02c8c0
-imagePullSecrets: []
-nameOverride: ''
-fullnameOverride: ''
-serviceAccount:
-  create: true
-  annotations: {}
-  name: ''
-podAnnotations: {}
-podSecurityContext: {}
-securityContext: {}
-service:
-  type: ClusterIP
-  port: 80
-ingress:
-  enabled: false
-  className: ''
-  annotations: {}
-  hosts:
-    - host: chart-example.local
-      paths:
-        - path: /
-          pathType: ImplementationSpecific
-  tls: []
-resources: {}
-autoscaling:
-  enabled: false
-  minReplicas: 1
-  maxReplicas: 100
-  targetCPUUtilizationPercentage: 80
-nodeSelector: {}
-tolerations: []
-affinity: {}
+  tag: 1b2e1db38ddab8463d4e73263e547416a29fef7a
