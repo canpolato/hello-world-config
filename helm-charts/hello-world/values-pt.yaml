@@ -1,4 +1,4 @@
 image:
   repository: canpolatoral/hello-world
   pullPolicy: IfNotPresent
-  tag: 8f29c71f74a7cf72537c819da8b45ac39089ec14
+  tag: b336382276350827af43c126d19a8b131404dbcc
